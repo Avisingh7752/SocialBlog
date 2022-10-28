@@ -1,0 +1,24 @@
+.contact-content {
+    margin-top: 32px ;
+    margin-bottom: 32px ;
+    padding: 10px;
+    display: block;
+    /* height: 395px; */
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url(../img/img2.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    z-index: -1;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-top: 23px;
+}
